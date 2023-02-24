@@ -1,0 +1,43 @@
+footer {
+    background: var(--color-primary);
+    margin-top: 6rem;
+    padding-bottom: 8rem;
+    display: grid;
+    justify-content: center;
+}
+
+.footer__logo {
+    text-align: center;
+}
+
+.permalinks {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.permalinks li a{
+    color: var(--color-bg);
+}
+
+.permalinks li a:hover {
+    color:var(--color-white);
+    transition: var(--transition);
+}
+
+.footer__copy {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: smaller;
+    padding-top: 4rem;
+
+}
+
+
+
+.dog__logo {
+    padding-top: 6rem;
+    color: var(--color-bg);
+    font-size: 40px;
+}
